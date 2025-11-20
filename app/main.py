@@ -21,6 +21,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def root():
+    return {
+        "message": "LLM Agent Starter Kit API",
+        "docs_url": "/docs",
+        "health_url": "/health"
+    }
+
 
 @app.get("/health")
 def health_check():
