@@ -2,8 +2,6 @@
 
 # FastAPI + LangChain LLM Agent Starter Kit
 
-[![Gumroad](https://img.shields.io/badge/Gumroad-Download-orange?logo=gumroad&logoColor=white)](https://finchey88.gumroad.com/l/fastapi-langchain-agent)
-
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![CI](https://github.com/Peippo1/FastAPI-LangChain-LLM-Agent-Starter-Kit/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
