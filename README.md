@@ -1,13 +1,17 @@
 **Requires Python 3.11+**
 
-# FastAPI + LangChain LLM Agent Starter Kit
+# Self-Hosted AI Assistant Backend (FastAPI + LangChain)
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue)
 ![CI](https://github.com/Peippo1/FastAPI-LangChain-LLM-Agent-Starter-Kit/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-informational)
 
-Kickstart your next AI project with a **production-ready FastAPI + LangChain template**.
+A production-oriented, self-hosted FastAPI service for building internal AI assistants and agent-backed tools.
+
+Production-ready in structure and tooling (Docker, CI, config, tests) — not a drop-in enterprise solution.
+
+Designed to be extended safely for your workflows, rather than used as a finished end-user product.
 
 This starter kit gives you a **sync** (beginner-friendly) LLM agent with:
 - 🔢 Calculator tool
@@ -17,11 +21,19 @@ This starter kit gives you a **sync** (beginner-friendly) LLM agent with:
 - ✅ Example tests + GitHub Actions CI
 - 🔐 `.env` configuration via Pydantic
 
-Perfect for:
-- Prototyping new AI products
-- Hackathons and demos
-- Learning LangChain + FastAPI
-- Building your own agents and tools
+---
+
+## What this is (and isn’t)
+
+**This is:** a backend service foundation you can self-host and extend for internal tools, prototypes, and controlled environments.
+
+**This isn’t:** a finished product. It does not ship with a UI, enterprise security hardening (auth/RBAC), observability, or customer-facing deployment patterns out of the box.
+
+Designed for:
+- Internal AI tools and assistant services
+- Research, analysis, and document-processing backends
+- Prototyping AI features in controlled environments
+- Consultants and teams building custom AI workflows
 
 ---
 
@@ -35,13 +47,13 @@ Perfect for:
 - Example tools (calculator, web search stub, file parser)  
 - Example tests and CI pipeline  
 - `.env.example` for safe configuration  
-- Free lifetime updates to the Gumroad version  
+- Free lifetime updates to the Lemon Squeezy version  
 
 ---
 
 ## Who is this for?
 
-This starter kit is designed for developers, data engineers, ML engineers, and indie hackers who want to ship AI-powered APIs quickly and reliably.  
+This project is designed for developers, data engineers, ML engineers, consultants, and indie builders who want a clean foundation for shipping AI-powered APIs quickly and reliably.  
 If you work with FastAPI, LangChain, or LLM-based tools, this provides a clean foundation for building real-world features without boilerplate.
 
 ---
@@ -49,7 +61,7 @@ If you work with FastAPI, LangChain, or LLM-based tools, this provides a clean f
 ## Why I built this
 
 A lot of LangChain examples online are fragmented, outdated, or not structured for real projects.  
-I built this starter kit to provide a clean, stable starting point that follows real engineering principles—so you can focus on your agent, not dependency issues or project scaffolding.
+I built this to provide a clean, stable foundation that follows real engineering principles—so you can focus on your agent logic, not dependency issues or project scaffolding.
 
 ---
 
@@ -65,14 +77,14 @@ Yes. You are free to use this in client and commercial projects.
 No. All tests run entirely offline.
 
 **Do I get updates?**  
-Yes. All Gumroad buyers receive free lifetime updates to the template.
+Yes. All Lemon Squeezy buyers receive free lifetime updates to the template.
 
 ---
 
-## Want the full packaged version?
+## Want the packaged version?
 
 A packaged ZIP with updates is available here:  
-**https://finchly380.gumroad.com/l/fastapi-langchain-agent**
+**https://finchworksstudio.lemonsqueezy.com/**
 
 ---
 
