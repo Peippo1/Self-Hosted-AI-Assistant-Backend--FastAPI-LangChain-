@@ -12,7 +12,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Add a custom search API integration example (e.g., Tavily or SerpAPI).
   - Provide prebuilt deployment examples (Fly.io, Render, AWS ECS).
 
-## [0.1.0] - 2025-01-15
+## [0.2.0] - 2025-02-01
+### Changed
+- Repositioned and renamed the project to **Self-Hosted AI Assistant Backend (FastAPI + LangChain)**.
+- Updated API metadata (title and description) to reflect internal-tools and self-hosted positioning.
+- Clarified project scope to emphasise backend service foundations rather than a learning-focused starter kit.
+
+### Documentation
+- Updated README to remove "starter kit" framing.
+- Added explicit "What this is / isn’t" section to avoid misinterpretation.
+
+## [0.1.0] - 2025-01-15 (Initial release as FastAPI + LangChain LLM Agent Starter Kit)
 ### Added
 - Initial release of the **FastAPI + LangChain LLM Agent Starter Kit**.
 - Fully working sync LangChain agent with:

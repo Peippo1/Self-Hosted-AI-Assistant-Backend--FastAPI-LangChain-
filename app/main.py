@@ -7,9 +7,9 @@ from app.config import get_settings
 
 settings = get_settings()
 app = FastAPI(
-    title="LLM Agent Starter Kit",
+    title="Self-Hosted AI Assistant Backend",
     version="0.1.0",
-    description="FastAPI + LangChain sync agent starter template.",
+    description="Production-oriented, self-hosted FastAPI + LangChain backend for internal AI assistants and agent-backed tools.",
 )
 
 # Basic CORS (can be tightened by end user)
@@ -24,7 +24,7 @@ app.add_middleware(
 @app.get("/")
 def root():
     return {
-        "message": "LLM Agent Starter Kit API",
+        "message": "Self-Hosted AI Assistant Backend API",
         "docs_url": "/docs",
         "health_url": "/health"
     }

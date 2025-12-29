@@ -7,13 +7,15 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-informational)
 
+**Current version:** v0.2.0
+
 A production-oriented, self-hosted FastAPI service for building internal AI assistants and agent-backed tools.
 
 Production-ready in structure and tooling (Docker, CI, config, tests) — not a drop-in enterprise solution.
 
 Designed to be extended safely for your workflows, rather than used as a finished end-user product.
 
-This starter kit gives you a **sync** (beginner-friendly) LLM agent with:
+This project provides a **synchronous** (easy-to-follow) LLM agent implementation with:
 - 🔢 Calculator tool
 - 🌐 Web search stub (ready to plug into any search API)
 - 📂 File parser tool (txt / md, easy to extend)
@@ -171,7 +173,7 @@ Returns a simple landing message:
 
 ```json
 {
-  "message": "LLM Agent Starter Kit API",
+  "message": "Self-Hosted AI Assistant Backend API",
   "docs_url": "/docs",
   "health_url": "/health"
 }
@@ -214,7 +216,7 @@ C --> O[OpenAI Model]
 ## What's Inside (File-by-file)
 
 ```
-llm-agent-starter/
+self-hosted-ai-assistant-backend/
 │
 ├── app/
 │   ├── main.py           # FastAPI routes & app setup
@@ -273,5 +275,6 @@ deactivate
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url> llm-agent-starter
-cd llm-agent-starter```
+git clone <your-repo-url> self-hosted-ai-assistant-backend
+cd self-hosted-ai-assistant-backend
+```
